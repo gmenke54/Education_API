@@ -9,4 +9,21 @@ require 'csv'
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'coding-challenge.csv'))
 csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
-puts csv_text
+csv.each do |row|
+  t = Student.new
+  t.f_name = row['FIRST NAME']
+  t.l_name = row['LAST NAME']
+  t.initial = row['MIDDLE INITIAL']
+  t.prefix = row['PREFIX']
+  t.address_1 = row['ADDRESS 1']
+  t.address_2 = row['ADDRESS 2']
+  t.city = row['CITY']
+  t.state = row['STATE']
+  t.zip = row['ZIP']
+  t.education = row['EDUCATION']
+  t.income = row['ESTIMATED INCOME']
+  t.save
+  puts "#{t.f_name}, #{t.l_name} saved"
+end
+
+puts "There are now #{Student.count} rows in the transactions table"
