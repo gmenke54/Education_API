@@ -19,7 +19,7 @@ csv.each do |row|
   t.address_2 = row['ADDRESS 2']
   t.city = row['CITY']
   t.state = row['STATE']
-  t.zip = row['ZIP']
+  t.zip = row['ZIP CODE']
   t.education = row['EDUCATION']
   t.income = row['ESTIMATED INCOME']
   t.save
