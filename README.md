@@ -1,24 +1,41 @@
-# README
+### Grant Menke
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### 3/3/2022
 
-Things you may want to cover:
+#### [GitHub](https://github.com/gmenke54) | [LinkedIn](https://www.linkedin.com/in/grant-menke-b81490223/) | [Portfolio](www.grantmenke.com)
 
-* Ruby version
 
-* System dependencies
+## **_Description_**
 
-* Configuration
+This is a browser-based application written in Ruby on Rails and Vue.js deployed on Heroku and Surge.sh.
 
-* Database creation
+---
 
-* Database initialization
+## **_Screenshots_**
 
-* How to run the test suite
+Final Application Screenshot:
+![**home**](resources/students.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
+## **_Technologies_**
 
-* ...
+- Ruby on Rails
+- Vue.js
+- Javascript
+
+---
+
+## **_Getting Started_**
+
+1. Navigate to the [deployed site](https://ruby-app.surge.sh/)
+2. Select the field you would like to view the data according to
+3. Toggle between displaying the percent or number of students in each category
+
+---
+
+## **_Credits_**
+
+**Data Mapping Plugin:** [Chart.js, Vue-Chart-3](https://vue-chart-3.netlify.app/)
+
+**Toggle Button Plugin:** [VueForm](https://github.com/vueform/toggle)
