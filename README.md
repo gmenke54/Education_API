@@ -1,3 +1,5 @@
+# **Ruby on Rails Backend**
+
 ### Grant Menke
 
 ### 3/3/2022
@@ -8,6 +10,9 @@
 ## **_Description_**
 
 This is a browser-based application written in Ruby on Rails and Vue.js deployed on Heroku and Surge.sh.
+
+**Backend:** [Github](https://github.com/gmenke54/Education_API) | [Deployed](https://ruby-api.herokuapp.com/students/)
+**Frontend:** [Github](https://github.com/gmenke54/Education_App) | [Deployed](https://ruby-app.surge.sh/)
 
 ---
 
